@@ -1,0 +1,37 @@
+1570984984876	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/6k/kvmxftls60zbjs325mb6ytn40000gy/T/rust_mozprofile7y93AK"
+1570984988196	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1570984988197	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1570984988197	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1570984988197	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1570984990576	Marionette	INFO	Listening on port 60477
+1570985013891	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/6k/kvmxftls60zbjs325mb6ytn40000gy/T/rust_mozprofilebZpCE0"
+1570985014687	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1570985014687	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1570985014687	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1570985014687	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1570985016382	Marionette	INFO	Listening on port 60647
+1570985016468	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://cn.bing.com/, line 17: ReferenceError: EnglishSearchShared is not defined
+JavaScript error: resource:///actors/NetErrorChild.jsm, line 177: TypeError: docShell.failedChannel is null
+JavaScript error: resource:///actors/NetErrorChild.jsm, line 177: TypeError: docShell.failedChannel is null
+JavaScript error: resource:///actors/NetErrorChild.jsm, line 177: TypeError: docShell.failedChannel is null
+JavaScript error: resource:///actors/NetErrorChild.jsm, line 177: TypeError: docShell.failedChannel is null
+JavaScript error: resource:///actors/NetErrorChild.jsm, line 177: TypeError: docShell.failedChannel is null
+JavaScript error: resource:///actors/NetErrorChild.jsm, line 177: TypeError: docShell.failedChannel is null
+1570985019722	Marionette	INFO	Stopped listening on port 60647
+1570985030427	Marionette	INFO	Stopped listening on port 60477
+1570985034838	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/6k/kvmxftls60zbjs325mb6ytn40000gy/T/rust_mozprofileA5f0wI"
+1570985035395	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1570985035395	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1570985035395	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1570985035396	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1570985037222	Marionette	INFO	Listening on port 60800
+1570985037320	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://cn.bing.com/, line 17: ReferenceError: EnglishSearchShared is not defined
+JavaScript error: resource:///actors/NetErrorChild.jsm, line 177: TypeError: docShell.failedChannel is null
+JavaScript error: resource:///actors/NetErrorChild.jsm, line 177: TypeError: docShell.failedChannel is null
+JavaScript error: resource:///actors/NetErrorChild.jsm, line 177: TypeError: docShell.failedChannel is null
+JavaScript error: resource:///actors/NetErrorChild.jsm, line 177: TypeError: docShell.failedChannel is null
+JavaScript error: resource:///actors/NetErrorChild.jsm, line 177: TypeError: docShell.failedChannel is null
+JavaScript error: resource:///actors/NetErrorChild.jsm, line 177: TypeError: docShell.failedChannel is null
+1570985040006	Marionette	INFO	Stopped listening on port 60800
