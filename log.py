@@ -1,7 +1,7 @@
 import logging
 
 logging.basicConfig(level=logging.DEBUG, filename='selenium.log', filemode='w',
-                    format='%(name)s - %(levelname)s - %(message)s')
+                    format='%(name)s - %(level_name)s - %(message)s')
 
 # logging.debug('This is a debug message')
 # logging.info('This is an info message')

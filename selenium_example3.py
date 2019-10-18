@@ -1,8 +1,8 @@
 import time
-
+import chromedriver_binary as chrome
 from selenium import webdriver
 
-driver = webdriver.Chrome()
+driver = webdriver.Chrome(chrome.chromedriver_filename)
 # logging.debug('open browser')
 driver.get("http://www.bing.com")
 driver.maximize_window()

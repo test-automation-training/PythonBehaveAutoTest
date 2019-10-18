@@ -1,15 +1,15 @@
-def Open(context):
+def open(context):
     context.driver.get('http://www.bing.com')
     context.driver.maximize_window()
 
 
-def Search_TextBox(context):
+def search_textbox(context):
     return context.driver.find_element_by_id('sb_form_q')
 
 
-def Submit_Button(context):
+def submit_button(context):
     return context.driver.find_element_by_id('sb_go_par')
 
 
-def Signin_Link(context):
+def sign_in_link(context):
     return context.driver.find_element_by_id('id_s')

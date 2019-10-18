@@ -1,16 +1,16 @@
 # coding=utf-8
-from behave import *
+from behave import Step
 
-import pageObject.BingHomePage as BingHomePage
-import pageObject.SignInPage as SignInPage
+import page_object.BingHomePage as BingHomePage
+import page_object.SignInPage as SignInPage
 
 
 @Step('我已经登录到系统中')
 def step_impl(context):
-    BingHomePage.Signin_Link(context).click()
-    SignInPage.Username_TextBox(context).clear()
-    SignInPage.Username_TextBox(context).send_keys("pollyan212@hotmail.com")
-    SignInPage.Submit_Button(context).click()
-    SignInPage.Password_TextBox(context).clear()
-    SignInPage.Password_TextBox(context).send_keys("Shunlian05")
-    SignInPage.Submit_Button(context).click()
+    BingHomePage.sign_in_link(context).click()
+    SignInPage.username_textbox(context).clear()
+    SignInPage.username_textbox(context).send_keys("pollyan212@hotmail.com")
+    SignInPage.submit_button(context).click()
+    SignInPage.password_textbox(context).clear()
+    SignInPage.password_textbox(context).send_keys("Shunlian05")
+    SignInPage.submit_button(context).click()

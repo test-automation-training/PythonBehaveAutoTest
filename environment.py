@@ -1,8 +1,9 @@
+import chromedriver_binary as chrome
 from selenium import webdriver
 
 
 def before_all(context):
-    context.driver = webdriver.Chrome()
+    context.driver = webdriver.Chrome(chrome.chromedriver_filename)
     pass
 
 
