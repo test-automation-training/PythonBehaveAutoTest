@@ -43,3 +43,6 @@
 ⚠️示例提交规范：
 * `refactor: rename files`
 * `feat(#12): add search multi keywords test scenario`
+
+### 度量指标
+* 案例覆盖率（按优先级，正反案例）
