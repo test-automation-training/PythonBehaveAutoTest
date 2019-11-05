@@ -1,15 +1,18 @@
 # Python Behave Auto Test
+## 一、使用工具、依赖
+1. [Behave](https://github.com/behave/behave)
+2. Selenium Webdriver
+
+
+## 二、运行
+代码运行请使用命令：`$ behave`
+
+## 三、内容
 这是一个基于Python，[Behave](https://github.com/behave/behave)以及PageObject的一个UI自动化测试实例。
 他包含如下场景:
 1. 用Bing搜索引擎搜索关键字。
 2. 使用微软用户名密码登录
 3. 使用Scenario outline进行多次查询
-
----
-
-代码运行请使用命令：`$ behave`
-
----
 
 你可以使用关键字:
 1. `功能`表示`Feature`
@@ -20,8 +23,7 @@
 6. `那么`表示`Then`
 7. `例子`表示`Examples`
 
----
-
+## 四、规范
 请按照以下提交规范提交代码：
 * br: 此项特别针对bug号，用于向测试反馈bug列表的bug修改情况 
 * feat：新功能（feature） 
