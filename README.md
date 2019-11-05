@@ -3,7 +3,7 @@
 他包含如下场景:
 1. 用Bing搜索引擎搜索关键字。
 2. 使用微软用户名密码登录
-3. After I login to Bing, and I can use `Scenario outline` or `Scenario template` to create a template for `Examples`
+3. 使用Scenario outline进行多次查询
 
 ---
 
