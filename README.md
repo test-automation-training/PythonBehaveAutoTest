@@ -1,8 +1,8 @@
 # Python Behave Auto Test
-This is an example repo for using Python [Behave](https://github.com/behave/behave), and we use so called "PageObject"
-to implement an auto UI end to end test for:
-1. Using Bing to search one keyword
-2. Using my Microsoft user name and password to login Bing
+这是一个基于Python，[Behave](https://github.com/behave/behave)以及PageObject的一个UI自动化测试实例。
+他包含如下场景:
+1. 用Bing搜索引擎搜索关键字。
+2. 使用微软用户名密码登录
 3. After I login to Bing, and I can use `Scenario outline` or `Scenario template` to create a template for `Examples`
 
 ---
