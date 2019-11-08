@@ -34,7 +34,7 @@
 同时应使用 PageObject 模式对整个代码结构管理
 
 ### 4. 包结构设计
-建议目前按照被测 API 的名称作为包名，将一个 API 下的测试案例管理起来
+请按照 page_object / steps / cases 的方式设计包结构
 
 ### 5. 案例编写
 1. 请参见示例代码中，`bing_search_background.feature`
